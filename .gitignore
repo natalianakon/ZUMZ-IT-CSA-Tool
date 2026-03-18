@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Vite build output
+dist/
+
+# Local backups
+data/*-backup-*.json
+it-csa-tool-20*.jsx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local

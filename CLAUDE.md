@@ -101,6 +101,30 @@ npm run dev   # opens at http://127.0.0.1:5177
 
 ---
 
+## 6b. GitHub — Pushing Updates
+
+**Repo:** `https://github.com/natalianakon/ZUMZ-IT-CSA-Tool`
+
+**Push changes to GitHub** (run in Terminal after making updates):
+```bash
+cd "/Users/natalian/Desktop/ZUMIEZ/Natalia/IT CSA Tool"
+git add .
+git commit -m "describe what you changed"
+git push https://YOUR_TOKEN@github.com/natalianakon/ZUMZ-IT-CSA-Tool.git main
+```
+> Replace `YOUR_TOKEN` with your GitHub Personal Access Token (Settings → Developer Settings → Fine-grained tokens). Token expires Apr 17, 2026 — regenerate when needed.
+
+**Clone fresh on a new machine:**
+```bash
+cd "/Users/natalian/Desktop/ZUMIEZ/Natalia"
+git clone https://github.com/natalianakon/ZUMZ-IT-CSA-Tool.git
+cd ZUMZ-IT-CSA-Tool
+npm install
+npm run dev
+```
+
+---
+
 ## 7. Persistence Architecture
 
 ```
